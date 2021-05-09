@@ -4,10 +4,10 @@ public class Main {
 	public static void main(String[] args) {
 	
 		Category category = new Category(1, "Programlama", 3);
-		Category category2 = new Category(2, "Danýţmanlýk", 2);
+		Category category2 = new Category(2, "Danismanlik", 2);
 		Category category3 =new Category ();
 		category3.id=5;
-		category3.name="Grafik Tasarým";
+		category3.name="Grafik Tasarim";
 		category3.courseCount= 4;
 		
 		 Category[] categories = {category,category2,category3};
